@@ -34,8 +34,8 @@
         <label for="telefono">Telefono</label><br>
         <input type="text" name="telefono" required><br>
         
-        <label for="email">Correo Electronico</label><br>
-        <input type="email" name="email" required><br>
+        <label for="correo">Correo Electronico</label><br>
+        <input type="correo" name="correo" required><br>
         
         <input type="submit" value="REGISTRARSE">
     </form>

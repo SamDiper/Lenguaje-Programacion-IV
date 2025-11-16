@@ -2,7 +2,7 @@
     $host="localhost";
     $user="root";
     $pass="";
-    $db="login";
+    $db="registro";
 
     $con=new mysqli($host,$user,$pass,$db);
 

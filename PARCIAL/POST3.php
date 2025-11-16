@@ -49,7 +49,7 @@
 
         <!-- Campos visibles para ingresar nuevos registros -->
         <input type="text" name="nombre" placeholder="Ingrese su nombre" require><br>
-        <input type="email" name="correo" placeholder="Ingrese su correo" require><br>
+        <input type="correo" name="correo" placeholder="Ingrese su correo" require><br>
         <input type="number" name="edad" placeholder="Ingrese su edad" require><br>
         <input type="submit" value="REGISTRAR">
     </form>

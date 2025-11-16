@@ -22,7 +22,7 @@ if($_POST){
         <input type="text" name="txtNombre" id="">
         <br><br>
         <label for="Correo">Correo:</label>
-        <input type="email" name="txtCorreo" id="">
+        <input type="correo" name="txtCorreo" id="">
         <br><br>
         <input type="submit" value="Enviar">
     </form>

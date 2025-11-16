@@ -1,13 +1,13 @@
 <?php
     include("conexion.php");
-    if(!empty($_POST['usuario']) && !empty($_POST['clave']) && !empty($_POST['confirmar']) && !empty($_POST['nombre']) && !empty($_POST['apellido'])  && !empty($_POST['telefono']) && !empty($_POST['email'])){
+    if(!empty($_POST['usuario']) && !empty($_POST['clave']) && !empty($_POST['confirmar']) && !empty($_POST['nombre']) && !empty($_POST['apellido'])  && !empty($_POST['telefono']) && !empty($_POST['correo'])){
         $usuario = trim($_POST['usuario']);
         $clave = $_POST['clave'];
         $confirmar = $_POST['confirmar'];
         $nombre = trim($_POST['nombre']);
         $apellido = trim($_POST['apellido']);
         $telefono = trim($_POST['telefono']);
-        $correo = trim($_POST["email"])
+        $correo = trim($_POST["correo"])
 
 
         if ($clave !== $confirmar) {
